@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>パーティ送信フォーム</title>
+  </head>
+  <body>
+    <h2>相手パーティを入力してください</h2>
+    <form action="RecentParty.php" method="post">
+      <p>TN<br>
+	<input type="text" name="TN"></p>
+      <p>1匹目<br>
+	<input type="text" name="party1"></p>
+      <p>2匹目<br>
+	<input type="text" name="party2"></p>
+      <p>3匹目<br>
+	<input type="text" name="party3"></p>
+      <p>4匹目<br>
+	<input type="text" name="party4"></p>
+      <p>5匹目<br>
+	<input type="text" name="party5"></p>
+      <p>6匹目<br>
+	<input type="text" name="party6"></p>
+      <p>持ち物などのメモ<br>
+	<textarea name="memo" rows="6" cols="40"></textarea></p>
+      <div class="btn-area">
+	<input type="reset" value="リセット">　<input type="submit" value="送信">
+      </div>
+    </form>
+    <br><br>
+    <a href="https://swsh.pokedb.tokyo/">現在の順位確認</a>
+  </body>
+</html>
