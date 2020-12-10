@@ -1,2 +1,4 @@
 # NoteOpposingTeam
-Using it on raspberry pi
+剣盾で使える対戦記録ツール
+休日1日に暇つぶしで作ったもの
+今後は相手と自分の選出率やらログファイルのrotationやらを実装
